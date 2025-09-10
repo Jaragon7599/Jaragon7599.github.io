@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Page Title</title>
+
+</head>
+
+
+
+<body>
+
+<!--Your HTML tags will start here-->
+
+<nav>
+
+<a href="index.html">Homepage</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href=" Women's Soccer.html"> Womens' Soccer </a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="Feedback.html">feedback</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</nav>
+
+ <h1></h1>
+
+ <p></p>
+
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+    }
+
+    form {
+      background-color: #d0e7ff; /* Light blue form background */
+      padding: 20px;
+      width: 400px;
+      border-radius: 10px;
+      margin: 30px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 128, 0.2);
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    select, textarea {
+      width: 100%;
+      margin-top: 5px;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #99ccff;
+      font-size: 14px;
+    }
+
+    textarea {
+      background-color: #e0f0ff; /* Lighter blue for comment box */
+      height: 100px;
+      resize: vertical;
+    }
+
+    fieldset {
+      border: none;
+      margin: 15px 0;
+      padding: 0;
+    }
+
+    legend {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="radio"] {
+      margin-right: 8px;
+    }
+
+    .button-group {
+      margin-top: 15px;
+    }
+
+    button {
+      padding: 10px 15px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button[type="submit"] {
+      background-color: #3399ff; /* Blue submit button */
+    }
+
+    button[type="reset"] {
+      background-color: #66b3ff; /* Lighter blue reset button */
+    }
+  </style>
+</head>
+<body>
+
+  <form>
+    <!-- Dropdown Field -->
+    <label for="team">Favorite US Female Player:</label>
+    <select id="team" name="team" required>
+      <option value="">-- Select a Player --</option>
+      <option value="liverpool">Carli Lloyd</option>
+      <option value="real_madrid">Alex Morgan</option>
+      <option value="man_city">Abby Womback</option>
+    </select>
+
+    <!-- Radio Buttons with Legend -->
+    <fieldset>
+      <legend>How often do you watch soccer?</legend>
+      <label><input type="radio" name="frequency" value="daily"> Daily</label>
+      <label><input type="radio" name="frequency" value="weekly"> Weekly</label>
+      <label><input type="radio" name="frequency" value="monthly"> Monthly</label>
+      <label><input type="radio" name="frequency" value="rarely"> Rarely</label>
+    </fieldset>
+
+    <!-- Comment Box -->
+    <label for="comments">Comments or Favorite Soccer Moments:</label>
+    <textarea id="comments" name="comments" placeholder="Share your thoughts..."></textarea>
+
+    <!-- Buttons -->
+    <div class="button-group">
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+
+
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
